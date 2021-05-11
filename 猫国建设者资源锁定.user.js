@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         猫国建设者资源锁定
+// @name         kittensgame_set_maxValue 
 // @namespace    none
 // @version      1.1
-// @description  所有资源锁定最大值,修改执行时间为9分钟
+// @description  所有资源锁定最大值,执行时间为9分钟
 // @author       Amaury
 // @match        http://kittensgame.com/web/
 // @grant        none
