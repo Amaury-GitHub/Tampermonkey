@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         kittensgame maxValue
+// @name         Kittens Game maxValue
 // @namespace    https://github.com/Amaury-GitHub/kittensgame
 // @version      1.0
 // @description  猫国建设者,已解锁的资源自动锁定最大值,9分钟执行一次
