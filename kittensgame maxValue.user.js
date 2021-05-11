@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         kittensgame_set_maxValue
+// @name         kittensgame maxValue
 // @namespace    https://github.com/Amaury-GitHub/kittensgame
 // @version      1.0
-// @description  所有资源锁定最大值,执行时间为9分钟
+// @description  猫国建设者,已解锁的资源自动锁定最大值,9分钟执行一次
 // @author       Amaury
 // @match        http://kittensgame.com/web/
 // @match        https://likexia.gitee.io/cat-zh/
@@ -12,7 +12,7 @@
 (function () {
     'use strict';
 
-function set_maxValue ()
+function maxValue ()
 {
 //alicorn
     if (game.resPool.resourceMap.alicorn.maxValue !== 0 && game.resPool.resourceMap.alicorn.unlocked === true) {
@@ -245,6 +245,6 @@ function set_maxValue ()
 //END
 }
 
-setInterval(set_maxValue,540000);
+setInterval(maxValue,540000);
 
 })()
