@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         kittensgame_set_maxValue 
+// @name         kittensgame_set_maxValue
 // @namespace    https://github.com/Amaury-GitHub/kittensgame
 // @version      1.1
 // @description  所有资源锁定最大值,执行时间为9分钟
