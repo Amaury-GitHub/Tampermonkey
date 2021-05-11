@@ -2,7 +2,7 @@
 // @name         Kittens Game maxValue
 // @namespace    https://github.com/Amaury-GitHub/kittensgame
 // @version      1.0
-// @description  猫国建设者,已解锁的资源自动锁定最大值,9分钟执行一次
+// @description  猫国建设者,已解锁的资源自动锁定最大值
 // @author       Amaury
 // @match        http://kittensgame.com/web/
 // @match        https://likexia.gitee.io/cat-zh/
@@ -245,6 +245,6 @@ function maxValue ()
 //END
 }
 
-setInterval(maxValue,540000);
+setInterval(maxValue,1000);
 
 })()
