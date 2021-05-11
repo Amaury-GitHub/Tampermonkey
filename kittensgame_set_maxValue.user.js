@@ -4,7 +4,11 @@
 // @version      1.1
 // @description  所有资源锁定最大值,执行时间为9分钟
 // @author       Amaury
-// @match        http://kittensgame.com/web/
+// @include     *bloodrizer.ru/games/kittens/*
+// @include     file:///*kitten-game*
+// @include     *kittensgame.com/web/*
+// @include     *kittensgame.com/beta/*
+// @include     *kittensgame.com/alpha/*
 // @grant        none
 // ==/UserScript==
 
