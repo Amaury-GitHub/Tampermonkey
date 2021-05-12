@@ -81,6 +81,6 @@ function maxValue ()
 //END
 }
 
-setInterval(maxValue,2000);
+setInterval(maxValue,1000);
 
 })()
