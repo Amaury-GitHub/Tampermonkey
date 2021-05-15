@@ -4,7 +4,11 @@
 // @version      1.0
 // @description  猫国建设者,已解锁的资源自动锁定最大值
 // @author       Amaury
-// @match        http://kittensgame.com/web/
+// @include     *bloodrizer.ru/games/kittens/*
+// @include     file:///*kitten-game*
+// @include     *kittensgame.com/web/*
+// @include     *kittensgame.com/beta/*
+// @include     *kittensgame.com/alpha/*
 // @match        https://likexia.gitee.io/cat-zh/
 // @grant        none
 // ==/UserScript==
