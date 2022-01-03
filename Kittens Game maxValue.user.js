@@ -2,7 +2,7 @@
 // @name         Kittens Game maxValue
 // @namespace    https://github.com/Amaury-GitHub/kittensgame
 // @version      1.0
-// @description  猫国建设者,已解锁的资源自动锁定最大值
+// @description  猫国建设者,解放小猫,自动锁定小猫职业对应的资源的最大值
 // @author       Amaury
 // @include     *bloodrizer.ru/games/kittens/*
 // @include     file:///*kitten-game*
@@ -18,71 +18,38 @@
 
 function maxValue ()
 {
-//antimatter
-//    if (game.resPool.resourceMap.antimatter.unlocked === true) {
-//       game.resPool.resourceMap.antimatter.value = game.resPool.resourceMap.antimatter.maxValue
-//    }
-//catnip猫薄荷
-    if (game.resPool.resourceMap.catnip.unlocked === true) {
-       game.resPool.resourceMap.catnip.value = game.resPool.resourceMap.catnip.maxValue
-    }
-//coal煤
-    if (game.resPool.resourceMap.coal.unlocked === true) {
-       game.resPool.resourceMap.coal.value = game.resPool.resourceMap.coal.maxValue
-    }
-//culture
-//    if (game.resPool.resourceMap.culture.unlocked === true) {
-//       game.resPool.resourceMap.culture.value = game.resPool.resourceMap.culture.maxValue
-//    }
-//faith信仰
-    if (game.resPool.resourceMap.faith.unlocked === true) {
-       game.resPool.resourceMap.faith.value = game.resPool.resourceMap.faith.maxValue
-    }
-//gold黄金
-    if (game.resPool.resourceMap.gold.unlocked === true) {
-      game.resPool.resourceMap.gold.value = game.resPool.resourceMap.gold.maxValue
-    }
-//iron
-//    if (game.resPool.resourceMap.iron.unlocked === true) {
-//       game.resPool.resourceMap.iron.value = game.resPool.resourceMap.iron.maxValue
-//    }
-//manpower喵力
-    if (game.resPool.resourceMap.manpower.unlocked === true) {
-       game.resPool.resourceMap.manpower.value = game.resPool.resourceMap.manpower.maxValue
-    }
-//minerals矿物
-    if (game.resPool.resourceMap.minerals.unlocked === true) {
-       game.resPool.resourceMap.minerals.value = game.resPool.resourceMap.minerals.maxValue
-    }
-//oil
-//    if (game.resPool.resourceMap.oil.unlocked === true) {
-//       game.resPool.resourceMap.oil.value = game.resPool.resourceMap.oil.maxValue
-//    }
-//science科学
-    if (game.resPool.resourceMap.science.unlocked === true) {
-       game.resPool.resourceMap.science.value = game.resPool.resourceMap.science.maxValue
-    }
-//sorrow
-//    if (game.resPool.resourceMap.sorrow.unlocked === true) {
-//       game.resPool.resourceMap.sorrow.value = game.resPool.resourceMap.sorrow.maxValue
-//    }
-//titanium
-//    if (game.resPool.resourceMap.titanium.unlocked === true) {
-//       game.resPool.resourceMap.titanium.value = game.resPool.resourceMap.titanium.maxValue
-//    }
-//unobtainium
-//    if (game.resPool.resourceMap.unobtainium.unlocked === true) {
-//       game.resPool.resourceMap.unobtainium.value = game.resPool.resourceMap.unobtainium.maxValue
-//    }
-//uranium
-//    if (game.resPool.resourceMap.uranium.unlocked === true) {
-//       game.resPool.resourceMap.uranium.value = game.resPool.resourceMap.uranium.maxValue
-//    }
-//wood木材
+    //伐木工_木材
     if (game.resPool.resourceMap.wood.unlocked === true) {
        game.resPool.resourceMap.wood.value = game.resPool.resourceMap.wood.maxValue
     }
-//END
+    //农民_猫薄荷
+    if (game.resPool.resourceMap.catnip.unlocked === true) {
+       game.resPool.resourceMap.catnip.value = game.resPool.resourceMap.catnip.maxValue
+    }
+    //学者_科学
+    if (game.resPool.resourceMap.science.unlocked === true) {
+       game.resPool.resourceMap.science.value = game.resPool.resourceMap.science.maxValue
+    }
+    //猎人_喵力
+    if (game.resPool.resourceMap.manpower.unlocked === true) {
+       game.resPool.resourceMap.manpower.value = game.resPool.resourceMap.manpower.maxValue
+    }
+    //矿工_矿物
+    if (game.resPool.resourceMap.minerals.unlocked === true) {
+       game.resPool.resourceMap.minerals.value = game.resPool.resourceMap.minerals.maxValue
+    }
+    //牧师_信仰
+    if (game.resPool.resourceMap.faith.unlocked === true) {
+       game.resPool.resourceMap.faith.value = game.resPool.resourceMap.faith.maxValue
+    }
+    //地质学家_煤
+    if (game.resPool.resourceMap.coal.unlocked === true) {
+       game.resPool.resourceMap.coal.value = game.resPool.resourceMap.coal.maxValue
+    }
+    //地质学家_黄金
+    if (game.resPool.resourceMap.gold.unlocked === true) {
+      game.resPool.resourceMap.gold.value = game.resPool.resourceMap.gold.maxValue
+    }
 }
 
 setInterval(maxValue,2000);
