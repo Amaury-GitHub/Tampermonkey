@@ -26,18 +26,18 @@ function maxValue ()
     if (game.resPool.resourceMap.catnip.unlocked === true) {
        game.resPool.resourceMap.catnip.value = game.resPool.resourceMap.catnip.maxValue
     }
-//coal
-//    if (game.resPool.resourceMap.coal.unlocked === true) {
-//       game.resPool.resourceMap.coal.value = game.resPool.resourceMap.coal.maxValue
-//    }
+//coal煤
+    if (game.resPool.resourceMap.coal.unlocked === true) {
+       game.resPool.resourceMap.coal.value = game.resPool.resourceMap.coal.maxValue
+    }
 //culture
 //    if (game.resPool.resourceMap.culture.unlocked === true) {
 //       game.resPool.resourceMap.culture.value = game.resPool.resourceMap.culture.maxValue
 //    }
-//faith
-//    if (game.resPool.resourceMap.faith.unlocked === true) {
-//       game.resPool.resourceMap.faith.value = game.resPool.resourceMap.faith.maxValue
-//    }
+//faith信仰
+    if (game.resPool.resourceMap.faith.unlocked === true) {
+       game.resPool.resourceMap.faith.value = game.resPool.resourceMap.faith.maxValue
+    }
 //gold
 //    if (game.resPool.resourceMap.gold.unlocked === true) {
 //      game.resPool.resourceMap.gold.value = game.resPool.resourceMap.gold.maxValue
