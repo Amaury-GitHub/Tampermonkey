@@ -38,10 +38,10 @@ function maxValue ()
     if (game.resPool.resourceMap.faith.unlocked === true) {
        game.resPool.resourceMap.faith.value = game.resPool.resourceMap.faith.maxValue
     }
-//gold
-//    if (game.resPool.resourceMap.gold.unlocked === true) {
-//      game.resPool.resourceMap.gold.value = game.resPool.resourceMap.gold.maxValue
-//    }
+//gold黄金
+    if (game.resPool.resourceMap.gold.unlocked === true) {
+      game.resPool.resourceMap.gold.value = game.resPool.resourceMap.gold.maxValue
+    }
 //iron
 //    if (game.resPool.resourceMap.iron.unlocked === true) {
 //       game.resPool.resourceMap.iron.value = game.resPool.resourceMap.iron.maxValue
