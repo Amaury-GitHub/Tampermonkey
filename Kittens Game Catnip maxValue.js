@@ -2,7 +2,7 @@
 // @name         Kittens Game Catnip maxValue
 // @namespace    https://github.com/Amaury-GitHub/kittensgame
 // @version      1.0
-// @description  猫国建设者,已解锁的资源自动锁定最大值
+// @description  猫国建设者,每秒自动锁定猫薄荷最大值
 // @author       Amaury
 // @include     *bloodrizer.ru/games/kittens/*
 // @include     file:///*kitten-game*
