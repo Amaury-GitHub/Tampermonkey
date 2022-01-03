@@ -22,7 +22,7 @@ function maxValue ()
 //    if (game.resPool.resourceMap.antimatter.unlocked === true) {
 //       game.resPool.resourceMap.antimatter.value = game.resPool.resourceMap.antimatter.maxValue
 //    }
-//catnip
+//catnip猫薄荷
     if (game.resPool.resourceMap.catnip.unlocked === true) {
        game.resPool.resourceMap.catnip.value = game.resPool.resourceMap.catnip.maxValue
     }
@@ -46,22 +46,22 @@ function maxValue ()
 //    if (game.resPool.resourceMap.iron.unlocked === true) {
 //       game.resPool.resourceMap.iron.value = game.resPool.resourceMap.iron.maxValue
 //    }
-//manpower
-//    if (game.resPool.resourceMap.manpower.unlocked === true) {
-//       game.resPool.resourceMap.manpower.value = game.resPool.resourceMap.manpower.maxValue
-//    }
-//minerals
-//    if (game.resPool.resourceMap.minerals.unlocked === true) {
-//       game.resPool.resourceMap.minerals.value = game.resPool.resourceMap.minerals.maxValue
-//    }
+//manpower喵力
+    if (game.resPool.resourceMap.manpower.unlocked === true) {
+       game.resPool.resourceMap.manpower.value = game.resPool.resourceMap.manpower.maxValue
+    }
+//minerals矿物
+    if (game.resPool.resourceMap.minerals.unlocked === true) {
+       game.resPool.resourceMap.minerals.value = game.resPool.resourceMap.minerals.maxValue
+    }
 //oil
 //    if (game.resPool.resourceMap.oil.unlocked === true) {
 //       game.resPool.resourceMap.oil.value = game.resPool.resourceMap.oil.maxValue
 //    }
-//science
-//    if (game.resPool.resourceMap.science.unlocked === true) {
-//       game.resPool.resourceMap.science.value = game.resPool.resourceMap.science.maxValue
-//    }
+//science科学
+    if (game.resPool.resourceMap.science.unlocked === true) {
+       game.resPool.resourceMap.science.value = game.resPool.resourceMap.science.maxValue
+    }
 //sorrow
 //    if (game.resPool.resourceMap.sorrow.unlocked === true) {
 //       game.resPool.resourceMap.sorrow.value = game.resPool.resourceMap.sorrow.maxValue
@@ -78,7 +78,7 @@ function maxValue ()
 //    if (game.resPool.resourceMap.uranium.unlocked === true) {
 //       game.resPool.resourceMap.uranium.value = game.resPool.resourceMap.uranium.maxValue
 //    }
-//wood
+//wood木材
     if (game.resPool.resourceMap.wood.unlocked === true) {
        game.resPool.resourceMap.wood.value = game.resPool.resourceMap.wood.maxValue
     }
