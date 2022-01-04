@@ -46,10 +46,6 @@ function maxValue ()
     if (game.resPool.resourceMap.coal.unlocked === true) {
        game.resPool.resourceMap.coal.value = game.resPool.resourceMap.coal.maxValue
     }
-    //地质学家_黄金
-    if (game.resPool.resourceMap.gold.unlocked === true) {
-      game.resPool.resourceMap.gold.value = game.resPool.resourceMap.gold.maxValue
-    }
 }
 
 setInterval(maxValue,2000);
