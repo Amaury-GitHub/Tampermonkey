@@ -18,6 +18,6 @@
 
     setInterval(function() {
         game.resPool.resourceMap.catnip.value = game.resPool.resourceMap.catnip.maxValue
-    }, 2000)
+    }, 200)
 
 })();
