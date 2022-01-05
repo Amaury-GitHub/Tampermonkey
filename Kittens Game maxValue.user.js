@@ -21,6 +21,6 @@ function maxValue ()
     game.resPool.resourceMap.catnip.value = game.resPool.resourceMap.catnip.maxValue
 }
 
-setInterval(maxValue,1000);
+setInterval(maxValue , 200);
 
 })()
