@@ -13,9 +13,11 @@
 // @grant        none
 // ==/UserScript==
 
-(function () {
-    function maxValue () {
+(function() {
+    'use strict';
+
+    setInterval(function() {
         game.resPool.resourceMap.catnip.value = game.resPool.resourceMap.catnip.maxValue
-    }
-setInterval(maxValue , 2000);
-})()
+    }, 2000)
+
+})();
