@@ -16,14 +16,13 @@
 (function() {
     'use strict';
     
-    //伐木工_木材
-    setInterval(function() {
-        game.resPool.resourceMap.wood.value = game.resPool.resourceMap.wood.maxValue
-    }, 1000)
-    
     //农民_猫薄荷
     setInterval(function() {
         game.resPool.resourceMap.catnip.value = game.resPool.resourceMap.catnip.maxValue
+    }, 1000)
+    //伐木工_木材
+    setInterval(function() {
+        game.resPool.resourceMap.wood.value = game.resPool.resourceMap.wood.maxValue
     }, 1000)
 
 })();
