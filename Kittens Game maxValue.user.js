@@ -15,7 +15,7 @@
 
 (function() {
     'use strict';
-    
+
     //农民_猫薄荷
     setInterval(function() {
         game.resPool.resourceMap.catnip.value = game.resPool.resourceMap.catnip.maxValue
