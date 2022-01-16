@@ -28,10 +28,6 @@
     setInterval(function() {
         game.resPool.resourceMap.science.value = game.resPool.resourceMap.science.maxValue
     }, 1000)
-    //学者-星图
-    setInterval(function() {
-        game.resPool.resourceMap.starchart.value = game.resPool.resourceMap.starchart.maxValue
-    }, 1000)
     //猎人-喵力
     setInterval(function() {
         game.resPool.resourceMap.manpower.value = game.resPool.resourceMap.manpower.maxValue
