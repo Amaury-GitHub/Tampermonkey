@@ -2,7 +2,7 @@
 // @name         Kittens Game maxValue
 // @namespace    https://github.com/Amaury-GitHub/kittensgame
 // @version      1.0
-// @description  猫国建设者,解放小猫
+// @description  猫国建设者,锁定猫薄荷
 // @author       Amaury
 // @include     *bloodrizer.ru/games/kittens/*
 // @include     file:///*kitten-game*
@@ -18,6 +18,6 @@
 
     setInterval(function() {
         game.resPool.resourceMap.catnip.value = game.resPool.resourceMap.catnip.maxValue
-    }, 1000)
+    }, 200)
 
 })();
