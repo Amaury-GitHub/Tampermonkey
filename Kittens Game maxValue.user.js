@@ -19,34 +19,34 @@
     //伐木工-木材
     setInterval(function() {
         game.resPool.resourceMap.wood.value = game.resPool.resourceMap.wood.maxValue
-    }, 1000)
+    }, 2000)
     //农民-猫薄荷
     setInterval(function() {
         game.resPool.resourceMap.catnip.value = game.resPool.resourceMap.catnip.maxValue
-    }, 1000)
+    }, 2000)
     //学者-科学
     setInterval(function() {
         game.resPool.resourceMap.science.value = game.resPool.resourceMap.science.maxValue
-    }, 1000)
+    }, 2000)
     //猎人-喵力
     setInterval(function() {
         game.resPool.resourceMap.manpower.value = game.resPool.resourceMap.manpower.maxValue
-    }, 1000)
+    }, 2000)
     //矿工-矿物
     setInterval(function() {
         game.resPool.resourceMap.minerals.value = game.resPool.resourceMap.minerals.maxValue
-    }, 1000)
+    }, 2000)
     //牧师-信仰
     setInterval(function() {
         game.resPool.resourceMap.faith.value = game.resPool.resourceMap.faith.maxValue
-    }, 1000)
+    }, 2000)
     //地质学家-煤
     setInterval(function() {
         game.resPool.resourceMap.coal.value = game.resPool.resourceMap.coal.maxValue
-    }, 1000)
+    }, 2000)
     //地质学家-黄金
     setInterval(function() {
         game.resPool.resourceMap.gold.value = game.resPool.resourceMap.gold.maxValue
-    }, 1000)
+    }, 2000)
 
 })();
