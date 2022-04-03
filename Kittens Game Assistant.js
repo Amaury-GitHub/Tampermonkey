@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Kittens Game Assistant
 // @namespace    https://github.com/Amaury-GitHub/kittensgame
-// @version      0.1
+// @version      1.0
 // @description  整合Kitten Scientists,NummonCalc
 // @author       Amaury
 // @include     *bloodrizer.ru/games/kittens/*
