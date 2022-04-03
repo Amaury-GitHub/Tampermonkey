@@ -2,7 +2,7 @@
 // @name         Kittens Game Assistant
 // @namespace    https://github.com/Amaury-GitHub/kittensgame
 // @version      1.0
-// @description  整合Kitten Scientists,NummonCalc,KGProgressBars
+// @description  整合Kitten Scientists,NummonCalc
 // @author       Amaury
 // @include     *bloodrizer.ru/games/kittens/*
 // @include     file:///*kitten-game*
@@ -21,7 +21,7 @@
         } else {
             document.body.appendChild(document.createElement('script')).src = 'https://cdn.jsdelivr.net/gh/cameroncondry/cbc-kitten-scientists@master/kitten-scientists.user.js';
             document.body.appendChild(document.createElement('script')).src = 'https://cdn.jsdelivr.net/gh/Bioniclegenius/NummonCalc@master/NummonCalc.js';
-            document.body.appendChild(document.createElement('script')).src = 'https://cdn.jsdelivr.net/gh/vl20100/KGProgressBars@master/dist/KGP.js';
+//            document.body.appendChild(document.createElement('script')).src = 'https://cdn.jsdelivr.net/gh/vl20100/KGProgressBars@master/dist/KGP.js';
         }
     };
     setup();
