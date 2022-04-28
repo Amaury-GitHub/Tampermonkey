@@ -22,7 +22,6 @@
             document.body.appendChild(document.createElement('script')).src = 'https://cdn.jsdelivr.net/gh/cameroncondry/cbc-kitten-scientists@master/kitten-scientists.user.js';
             document.body.appendChild(document.createElement('script')).src = 'https://cdn.jsdelivr.net/gh/Bioniclegenius/NummonCalc@master/NummonCalc.js';
             document.body.appendChild(document.createElement('script')).src = 'https://cdn.jsdelivr.net/gh/Amaury-GitHub/kittensgame@main/KGP-new.js';
-            document.body.appendChild(document.createElement('script')).src = 'https://cdn.jsdelivr.net/gh/Amaury-GitHub/kittensgame@main/KG-maxValue.js';
         }
     };
     setup();
