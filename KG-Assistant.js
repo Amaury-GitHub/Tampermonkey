@@ -19,8 +19,8 @@
                 setup();
             }, 2000);
         } else {
-            document.body.appendChild(document.createElement('script')).src = 'https://github.com/cameroncondry/cbc-kitten-scientists/raw/master/kitten-scientists.user.js';
-            document.body.appendChild(document.createElement('script')).src = 'https://github.com/Amaury-GitHub/kittensgame/raw/main/KG-maxValue.js';
+            document.body.appendChild(document.createElement('script')).src = 'https://raw.githubusercontent.com/cameroncondry/cbc-kitten-scientists/master/kitten-scientists.user.js';
+            document.body.appendChild(document.createElement('script')).src = 'https://raw.githubusercontent.com/Amaury-GitHub/kittensgame/main/KG-maxValue.js';
         }
     };
     setup();
