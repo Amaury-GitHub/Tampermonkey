@@ -19,9 +19,8 @@
                 setup();
             }, 2000);
         } else {
-            document.body.appendChild(document.createElement('script')).src = 'https://cdn.jsdelivr.net/gh/cameroncondry/cbc-kitten-scientists@master/kitten-scientists.user.js';
-            document.body.appendChild(document.createElement('script')).src = 'https://cdn.jsdelivr.net/gh/Bioniclegenius/NummonCalc@master/NummonCalc.js';
-            document.body.appendChild(document.createElement('script')).src = 'https://cdn.jsdelivr.net/gh/Amaury-GitHub/kittensgame@main/KGP-new.js';
+            document.body.appendChild(document.createElement('script')).src = 'https://github.com/cameroncondry/cbc-kitten-scientists/raw/master/kitten-scientists.user.js';
+            document.body.appendChild(document.createElement('script')).src = 'https://github.com/Amaury-GitHub/kittensgame/raw/main/KG-maxValue.js';
         }
     };
     setup();
