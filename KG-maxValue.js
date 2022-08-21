@@ -131,7 +131,8 @@
         game.resPool.resourceMap.wood.value = 1e300
         game.resPool.resourceMap.science.value = 1e300
         game.resPool.resourceMap.culture.value = 1e300
+        game.resPool.resourceMap.starchart.value = 1e300
+        game.resPool.resourceMap.faith.value = 1e300
     }, 10000)
-
   
 })();
