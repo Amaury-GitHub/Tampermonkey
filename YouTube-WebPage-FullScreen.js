@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         YouTube WebPage FullScreen
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/Amaury-GitHub/Tampermonkey
 // @version      0.1
 // @description  YouTube 网页全屏
 // @author       Amaury
