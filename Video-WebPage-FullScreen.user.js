@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name         YouTube WebPage FullScreen
+// @name         Video WebPage FullScreen
 // @namespace    https://github.com/Amaury-GitHub/Tampermonkey
 // @version      0.1
-// @description  YouTube 网页全屏
+// @description  视频网页全屏
 // @author       Amaury
 // @match        *://www.youtube.com/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
+// @match        *://www.bilibili.com/*
 // @grant        none
 // ==/UserScript==
 
@@ -18,6 +18,7 @@
 
   //Html5规则[播放器最外层],适用于无法自动识别的自适应大小HTML5播放器
   const html5Rules = {
+    "www.bilibili.com": ["#bilibiliPlayer"],
     "www.youtube.com": ["#movie_player"],
   }
 
