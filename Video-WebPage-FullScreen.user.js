@@ -18,7 +18,7 @@
 
   //Html5规则[播放器最外层],适用于无法自动识别的自适应大小HTML5播放器
   const html5Rules = {
-    "www.bilibili.com": ["#bilibili-Player"],
+    "www.bilibili.com": ["#bilibiliPlayer"],
     "www.youtube.com": ["#movie_player"],
   }
 
