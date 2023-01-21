@@ -30,8 +30,8 @@
 
   if (navigator.language.toLocaleLowerCase() == "zh-cn") {
     gv.btnText = {
-      max: "网页全屏,快捷键Esc",
-      pip: "画中画,快捷键F2",
+      max: "网页全屏,快捷键-Esc",
+      pip: "画中画,快捷键-F2",
       tip: "Iframe内视频，请用鼠标点击视频后重试",
     }
   } else {
