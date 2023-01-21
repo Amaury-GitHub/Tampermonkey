@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name         Video WebPage FullScreen
+// @name         YouTube WebPage FullScreen
 // @namespace    https://github.com/Amaury-GitHub/Tampermonkey
 // @version      0.1
-// @description  视频网页全屏
+// @description  YouTube网页全屏
 // @author       Amaury
 // @match        *://www.youtube.com/*
-// @match        *://www.bilibili.com/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
 // @grant        none
 // ==/UserScript==
 
@@ -16,13 +16,12 @@
     autoCheckCount: 0,
   }
 
-  //Html5规则[播放器最外层],适用于无法自动识别的自适应大小HTML5播放器
+  //Html5规则
   const html5Rules = {
-    "www.bilibili.com": ["#bilibili-Player"],
     "www.youtube.com": ["#movie_player"],
   }
 
-  //通用html5播放器
+  //通用Html5规则
   const generalPlayerRules = [".dplayer", ".video-js", ".jwplayer", "[data-player]"]
 
   if (window.top !== window.self) {
