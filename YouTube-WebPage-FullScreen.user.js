@@ -5,6 +5,7 @@
 // @description  YouTube 网页全屏
 // @author       Amaury
 // @match        *://www.youtube.com/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
 // @grant        none
 // ==/UserScript==
 
