@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Kittens Game Assistant
-// @namespace    https://github.com/Amaury-GitHub/kittensgame
+// @namespace    https://github.com/Amaury-GitHub/Tampermonkey
 // @version      1.0
 // @description  整合Kitten Scientists,NummonCalc,KGP
 // @author       Amaury
