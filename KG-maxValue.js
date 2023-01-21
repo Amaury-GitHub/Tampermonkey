@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Kittens Game maxValue
-// @namespace    https://github.com/Amaury-GitHub/kittensgame
+// @namespace    https://github.com/Amaury-GitHub/Tampermonkey
 // @version      1.0
 // @description  猫国建设者资源最大化
 // @author       Amaury
