@@ -5,8 +5,6 @@
 // @description  网页全屏
 // @author       Amaury
 // @match        *://www.youtube.com/*
-// @match        *://www.instagram.com/*
-// @match        *://twitter.com/*
 // @grant        none
 // ==/UserScript==
 
@@ -19,7 +17,15 @@
 
   //Html5规则
   const html5Rules = {
+    "www.acfun.cn": [".player-container .player"],
+    "www.bilibili.com": ["#bilibiliPlayer"],
+    "www.douyu.com": ["#js-player-video-case"],
+    "www.huya.com": ["#videoContainer"],
+    "www.twitch.tv": [".player"],
     "www.youtube.com": ["#movie_player"],
+    "www.yy.com": ["#player"],
+    "*weibo.com": ['[aria-label="Video Player"]', ".html5-video-live .html5-video"],
+    "v.huya.com": ["#video_embed_flash>div"],
   }
 
   //通用Html5规则
