@@ -5,6 +5,7 @@
 // @description  网页全屏
 // @author       Amaury
 // @match        *://www.youtube.com/*
+// @match        *://www.instagram.com/*
 // @match        *://twitter.com/*
 // @grant        none
 // ==/UserScript==
