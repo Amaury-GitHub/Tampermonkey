@@ -206,7 +206,7 @@
       gv.picinpicBtn.innerHTML = gv.btnText.pip
       gv.picinpicBtn.style.top = gv.controlBtn.style.top
       // 画中画按钮位置，PicInPic button
-      gv.picinpicBtn.style.left = playerRect.screenX - 400 + gv.player.offsetWidth + "px"
+      gv.picinpicBtn.style.left = playerRect.screenX - 410 + gv.player.offsetWidth + "px"
     },
   }
 
