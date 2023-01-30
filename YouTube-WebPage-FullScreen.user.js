@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Video WebPage FullScreen
+// @name         YouTube WebPage FullScreen
 // @namespace    https://github.com/Amaury-GitHub/Tampermonkey
 // @version      0.1
 // @description  网页全屏
@@ -206,7 +206,7 @@
       gv.picinpicBtn.innerHTML = gv.btnText.pip
       gv.picinpicBtn.style.top = gv.controlBtn.style.top
       // 画中画按钮位置，PicInPic button
-      gv.picinpicBtn.style.left = playerRect.screenX + "px"
+      gv.picinpicBtn.style.left = playerRect.screenX - 400 + gv.player.offsetWidth + "px"
     },
   }
 
