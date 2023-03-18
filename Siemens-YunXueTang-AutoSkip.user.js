@@ -15,5 +15,5 @@
       const buttonEle = document.getElementsByClassName('yxt-button yxt-button--primary')[2];
       if (buttonEle) buttonEle.click();
     }, 5000)
-  
+
 })();
