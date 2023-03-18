@@ -11,17 +11,11 @@
 (function() {
     'use strict';
 
-    var isVisible = function(element) {
-      return element.offsetWidth > 0 || element.offsetHeight > 0;
-    }
-
     setInterval(function() {
       const buttons = document.getElementsByClassName('yxt-button yxt-button--primary');
       for (let i = 0; i < buttons.length; i++) {
-          const buttonText = buttons[i].textContent;
-          if (buttonText === "继续学习" && isVisible(buttons[i])) {
+          if (buttons[i].textContent === "继续学习" && buttons[i].offsetWidth >0 ) {
               buttons[i].click();
-              console.log("Button " + i + " with text '" + buttonText + "' was clicked!");
           }
       }
     }, 10000)
