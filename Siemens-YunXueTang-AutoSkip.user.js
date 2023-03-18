@@ -13,7 +13,7 @@
 
     var isVisible = function(element) {
       return element.offsetWidth > 0 || element.offsetHeight > 0;
-}
+    }
 
     setInterval(function() {
       const buttons = document.getElementsByClassName('yxt-button yxt-button--primary');
@@ -24,6 +24,6 @@
               console.log("Button " + i + " with text '" + buttonText + "' was clicked!");
           }
       }
-    }, 5000)
+    }, 10000)
 
 })();
