@@ -12,9 +12,9 @@
     'use strict';
 
     setInterval(function() {
-      const buttons = document.getElementsByClassName('yxt-button yxt-button--primary');
+      const buttons = document.getElementsByTagName('button');
       for (let i = 0; i < buttons.length; i++) {
-          if (buttons[i].textContent === "继续学习" && buttons[i].offsetWidth >0 ) {
+          if (buttons[i].textContent.trim() === "继续学习" && buttons[i].offsetWidth > 0) {
               buttons[i].click();
           }
       }
