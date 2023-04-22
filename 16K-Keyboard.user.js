@@ -23,4 +23,10 @@
 			document.getElementsByClassName('btn btn-outline-secondary')[2].click()
 		}
 	}
+    document.addEventListener('mousedown', function(event) {
+        if (event.button === 0) {
+            // 鼠标左键
+            document.getElementsByClassName('btn btn-outline-secondary')[2].click()
+        }
+    });
 })();
