@@ -1,10 +1,11 @@
 // ==UserScript==
-// @name         YouTube WebPage FullScreen
+// @name         WebVideo FullScreen
 // @namespace    https://github.com/Amaury-GitHub/Tampermonkey
 // @version      0.1
 // @description  网页全屏
 // @author       Amaury
 // @match        *://www.youtube.com/*
+// @match        *://jable/*
 // @grant        none
 // ==/UserScript==
 
