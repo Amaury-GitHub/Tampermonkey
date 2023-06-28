@@ -5,7 +5,7 @@
 // @description  网页全屏
 // @author       Amaury
 // @match        *://www.youtube.com/*
-// @match        *://jable/*
+// @match        *://jable.tv/*
 // @grant        none
 // ==/UserScript==
 
