@@ -6,6 +6,8 @@
 // @author       Amaury
 // @match        *://www.youtube.com/*
 // @match        *://jable.tv/*
+// @match        *://madou.club/*
+// @match        *://dash.madou.club/*
 // @grant        none
 // ==/UserScript==
 
