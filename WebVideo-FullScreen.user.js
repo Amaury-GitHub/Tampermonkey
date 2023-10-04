@@ -4,10 +4,10 @@
 // @version      0.1
 // @description  网页全屏
 // @author       Amaury
-// @match        *://www.youtube.com/*
+// @match        *://*.youtube.com/*
 // @match        *://jable.tv/*
-// @match        *://madou.club/*
-// @match        *://dash.madou.club/*
+// @match        *://*.madou.club/*
+// @match        *://*.pornhub.com/*
 // @grant        none
 // ==/UserScript==
 
