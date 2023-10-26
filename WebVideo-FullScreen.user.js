@@ -6,6 +6,7 @@
 // @author       Amaury
 // @match        *://*.youtube.com/*
 // @match        *://jable.tv/*
+// @match        *://missav.com/*
 // @match        *://*.madou.club/*
 // @match        *://*.pornhub.com/*
 // @grant        none
