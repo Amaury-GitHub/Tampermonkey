@@ -11,7 +11,10 @@
 (function() {
     'use strict';
 
-    var button = document.getElementById('url');
-    button.click();
-
+    var urltextElement = document.getElementById('urltext');
+    if (urltextElement && urltextElement.textContent.trim() !== '') {
+        var button = document.getElementById('url');
+        button.click();
+    }
+    
 })();
