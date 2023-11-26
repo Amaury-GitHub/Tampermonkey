@@ -11,7 +11,7 @@
 (function() {
     'use strict';
 
-    var initialWidth = 300;
+    var initialWidth = 100;
     var initialHeight = 1000;
 
     document.onselectstart = function () { return false; }
