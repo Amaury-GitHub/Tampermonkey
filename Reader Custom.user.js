@@ -11,8 +11,8 @@
 (function() {
     'use strict';
 
-    var initialWidth = 600;
-    var initialHeight = 800;
+    var initialWidth = 300;
+    var initialHeight = 1000;
 
     document.onselectstart = function () { return false; }
     document.oncontextmenu = function () { return false; }
