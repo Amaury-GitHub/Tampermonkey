@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  屏蔽左右键，自动重设尺寸
 // @author       Amaury
-// @match        https://nas.amaury.eu.org:3333/
+// @match        *://book.amaury.eu.org/*
 // @grant        none
 // ==/UserScript==
 
