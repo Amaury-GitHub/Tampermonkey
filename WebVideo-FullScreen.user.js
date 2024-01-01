@@ -10,6 +10,7 @@
 // @match        *://*.pornhub.com/*
 // @match        *://*.missav.com/*
 // @match        *://*.njavtv.com/*
+// @match        *://*.njav.tv/*
 // @grant        none
 // ==/UserScript==
 
