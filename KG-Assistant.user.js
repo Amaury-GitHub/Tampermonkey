@@ -16,7 +16,7 @@
             }, 2000);
         } else {
             document.body.appendChild(document.createElement('script')).src = 'https://kitten-science.com/stable.js';
-            document.body.appendChild(document.createElement('script')).src = 'https://github.com/Amaury-GitHub/Tampermonkey/raw/refs/heads/main/KG-UnlimitedCatnip.user.js';
+            document.body.appendChild(document.createElement('script')).src = 'https://testingcf.jsdelivr.net/gh/Amaury-GitHub/Tampermonkey@main/KG-UnlimitedCatnip.user.js';
         }
     };
     setup();
