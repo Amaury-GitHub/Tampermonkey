@@ -5,6 +5,7 @@
 // @description  猫国建设者无限猫薄荷
 // @author       Amaury
 // @match     *kittensgame.com/web/*
+// @match     *zhaolinxu.github.io/cat-zh/*
 // @grant        none
 // ==/UserScript==
 
