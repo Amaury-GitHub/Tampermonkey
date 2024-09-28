@@ -15,8 +15,8 @@
                 setup();
             }, 2000);
         } else {
-            document.body.appendChild(document.createElement('script')).src = 'https://raw.githubusercontent.com/cameroncondry/cbc-kitten-scientists/master/kitten-scientists.user.js';
-            document.body.appendChild(document.createElement('script')).src = 'https://raw.githubusercontent.com/Amaury-GitHub/kittensgame/main/KG-maxValue.js';
+            document.body.appendChild(document.createElement('script')).src = 'https://kitten-science.com/stable.js';
+            document.body.appendChild(document.createElement('script')).src = 'https://raw.githubusercontent.com/Amaury-GitHub/Tampermonkey/main/KG-UnlimitedCatnip.user.js';
         }
     };
     setup();
