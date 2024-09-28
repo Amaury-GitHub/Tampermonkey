@@ -11,11 +11,11 @@
 (function() {
     'use strict';
 
-    //无限猫薄荷, 1s补充一次
+    //无限猫薄荷, 2s补充一次
     setInterval(function() {
         if (game.resPool.resourceMap.catnip.value < game.resPool.resourceMap.catnip.maxValue){
             game.resPool.resourceMap.catnip.value = game.resPool.resourceMap.catnip.maxValue
         }
-    }, 1000)
+    }, 2000)
 
 })();
