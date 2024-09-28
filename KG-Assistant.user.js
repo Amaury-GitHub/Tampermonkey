@@ -4,7 +4,7 @@
 // @version      1.0
 // @description  整合Kitten Scientists
 // @author       Amaury
-// @match     *kittensgame.com/web/*
+// @match        *kittensgame.com/web/*
 // @grant        none
 // ==/UserScript==
 
