@@ -4,7 +4,7 @@
 // @version      1.0
 // @description  猫国建设者无限猫薄荷
 // @author       Amaury
-// @include     *kittensgame.com/web/*
+// @match     *kittensgame.com/web/*
 // @grant        none
 // ==/UserScript==
 
