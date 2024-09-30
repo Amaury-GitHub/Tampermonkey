@@ -2,7 +2,7 @@
 // @name         Kittens Game maxValue
 // @namespace    https://github.com/Amaury-GitHub/Tampermonkey
 // @version      1.0
-// @description  猫国建设者无限资源
+// @description  猫国建设者,解放小猫
 // @author       Amaury
 // @match        https://kittensgame.com/web/
 // @match        https://kittensgame.com/beta/
