@@ -5,7 +5,6 @@
 // @description  网页全屏
 // @author       Amaury
 // @match        *://*.youtube.com/*
-// @match        *://*.x.com/*
 // @match        *://*.jable.tv/*
 // @match        *://*.madou.club/*
 // @match        *://*.pornhub.com/*
